@@ -1,0 +1,157 @@
+body {
+	background-image: url(https://images.indianexpress.com/2020/06/Wallpaper-bug-1200.jpg);
+	background-size: cover;
+
+}
+
+.second-content {
+	display: flex;
+}
+
+
+header {
+	font-size: 39px;
+	color: white;
+	background-color: #000;
+	height: 50px;
+	text-align: center;
+	margin-top: -10px ;
+	margin-right: -7px;
+	margin-left: -7px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 2px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid white;
+	border-radius: 10px;
+}
+
+.main-text {
+	font-size: 25px;
+	text-align: center;
+	margin: 400px;
+	
+}
+
+.main-text-search {
+	margin-right: 20px;
+	transition: 0.5s;
+	opacity: 50%;
+}
+
+.main-text-search:hover{
+	font-size: 40px;
+	transform: scale(0.3);
+	opacity: 100%;
+}
+
+.link {
+	color:#00FFFF;
+	text-decoration: none;
+}
+
+.link-back {
+	border-radius: 80px;
+	font-size: 39px;
+	color: white;
+	background-color: #000;
+	height: 50px;
+	text-align: center;
+	margin-top: -10px ;
+	margin-right: -10px;
+	margin-left: -10px;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 2px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+
+.second-page {
+	background-image: url(https://images.indianexpress.com/2020/06/Wallpaper-bug-1200.jpg);
+	background-size: cover;
+}
+
+.info-first {
+	font-size: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 8px;
+	opacity: 85%;
+	padding: 20px 20px 20px 20px;
+	margin-top: 30px;
+	margin-right: 150px;
+	margin-left: 100px;
+	height: 520px;
+	box-shadow: 0 0 20px 10px #808080;
+}
+
+.info-second {
+	font-size: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 8px;
+	opacity: 85%;
+	padding: 20px 20px 20px 20px;
+	margin-top: 30px;
+	margin-right: 100px;
+	margin-left: 100px;
+	height: 565px;
+	box-shadow: 0 0 20px 10px #808080;
+}
+
+.info-third {
+ 	font-size: 20px;
+	font-family: 'Noto Sans', sans-serif;
+	background-color: white;
+	border: 2px solid white;
+	border-radius: 8px;
+	opacity: 85%;
+	padding: 20px 20px 20px 20px;
+	margin-top: 30px;
+	margin-right: 150px;
+	margin-left: 100px;
+	height: 560px;
+	box-shadow: 0 0 20px 10px #808080;	
+}
+
+.company-photo {
+	width: 300px;
+	height: 100px;
+	background-color: #fff;
+	opacity: 85%;
+	border-radius: 8px;
+	padding: 10px 10px 5px 10px;
+	margin: 40px 200px 0 0;
+	box-shadow: 0 0 20px 10px #808080;
+}
+
+.link-end {
+	width: 270px;
+	height: 40px;
+	background-color: #fff;
+	text-align: center;
+	padding-top: 19px;
+	margin-top: 100px;
+	border-radius: 10px;
+	opacity: 85%;
+	transition: 0.3s;	
+}
+
+.link-end:hover{
+	opacity: 90%;
+	box-shadow: 0 0 20px 10px #808080;
+	transform: scale(1.1);
+}
+
+.link-end a {
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+
+}
+
+.link-out-end {
+	display: flex;
+	justify-content: center;
+}
