@@ -1,3 +1,4 @@
+
 .second-content {
 	display: flex;
 }
@@ -50,20 +51,29 @@ body {
 	text-decoration: none;
 }
 
+
+.link-back-background {
+	opacity: 65%;
+	transition: 0.3s;
+}
+
+.link-back-background:hover {
+	opacity: 90%;
+	box-shadow: 0 0 20px 10px #808080;
+	transform: scale(1.001);
+}
+
 .link-back {
-	border-radius: 80px;
-	font-size: 39px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 8px;
+	font-size: 37px;
 	color: white;
 	background-color: #000;
-	height: 50px;
+	height: 45px;
 	text-align: center;
-	margin-top: -10px ;
-	margin-right: -10px;
-	margin-left: -10px;
-	font-family: 'Montserrat', sans-serif;
-	padding-top: 2px;
-	margin-bottom: 10px;
+	justify-content: center ;
 	text-decoration: none;
+	display: flex;
 }
 
 .second-page {
@@ -103,7 +113,6 @@ body {
  	font-size: 20px;
 	font-family: 'Noto Sans', sans-serif;
 	background-color: white;
-	border: 2px solid white;
 	border-radius: 8px;
 	opacity: 85%;
 	padding: 20px 20px 20px 20px;
